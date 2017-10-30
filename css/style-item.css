@@ -111,23 +111,32 @@ width: 1800px;
 height: 700px;
 
 }
-.horizon.longwidth{
+.horizon.forthwidth{
 	width: 3800px;
 }
 .horizon.square{
 	width: 1500px;
 }
-.horizon.square.longwidth{
+.horizon.square.forthwidth{
 	width: 3800px;
 }
-.horizon.threegrid{
+.horizon.secondwidth{
+		width: 2000px;
+	}
+.horizon.thirdwidth{
 	width: 2500px;
 }
-.horizon.fourgrid{
+.horizon.forthwidth{
 	width: 3200px;
 }
-.horizon.square.fourgrid{
+.horizon.square.forthwidth{
 	width: 3200px;
+}
+.horizon.sixthwidth{
+	width: 4000px;
+}
+.horizon.square.sixthwidth{
+	width: 4300px;
 }
 
 .arrow{
@@ -183,7 +192,7 @@ height: 700px;
 .item.square{
 	width:500px;
 }
-.item.square.fourgrid{
+.item.square.forthwidth{
 	width:500px;
 	/*margin: 0px;*/
 }
@@ -192,18 +201,24 @@ height: 700px;
 	height: auto;
 }
 .item.hand{
-
-	background-color: #fffaf7;
 	margin: 0 ;
-	width: 400px;
+	width: 500px;
+	margin-left: 0;
 }
 .item.hand.first{
 	margin-left:250px;
 	/*width: 450px;*/
 }
-
+/*.item.hand{
+	margin: 10px;
+}*/
 .item.hand img{
-	width: 49%;
+	background-color: #fffaf7;
+	
+	background-color: #d9e0ff;
+	margin: 10px;
+
+	width: 45%;
 	display: inline-block;
 }
 .first{
@@ -227,10 +242,15 @@ height: 700px;
 	font-size: 45px;
 }
 .info h2{
-	font-size: 22px;
+	font-size: 17px;
 	line-height: 1.8;
 }
+.info .ch{
+	font-size: 16px;
+}
 .info p{
+	font-size: 15px;
+	/*line-height: 1.6;*/
 	text-decoration: underline;
 
 }
