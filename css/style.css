@@ -21,18 +21,14 @@ body, html {
     max-height: 100%;
 }
 body{
-	/*background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
-	background-color: #eaeaea;
+
 	text-align: center;
-	background-color: #fff;
 	background: url(../graphicitem_html/bg8.png);
-	/*background: url(../graphicitem_html/bg4.png);*/
 }
 .nav{
 	position: fixed;
 	right: 30px;
-	/*text-align: right;*/
-	/*margin-right: 30px;*/
+	
 }
 
 .nav li{
@@ -107,14 +103,11 @@ body{
 	padding-right: 15px;
 	font-weight: bolder;
 	text-align: center;
-	
-	/*background-color: red;*/
 	border-bottom:3px solid #000;
 }
 /*2017*/
 footer{
 	width: 100%;
-	/*background-color: #fff;*/
 	position:fixed;
 	text-align: left;
 	bottom: 0;
@@ -124,7 +117,5 @@ footer{
 footer p{
 
 	margin-left: 30px;
-	/*padding-left: 15px;*/
-	/*font-weight: bold;*/
 	margin-bottom: 20px;
 }
