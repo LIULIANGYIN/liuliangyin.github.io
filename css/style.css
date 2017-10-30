@@ -23,7 +23,7 @@ body, html {
 body{
 
 	text-align: center;
-	background: url(../graphicitem_html/bg8.png);
+	/*background: url(../graphicitem_html/bg8.png);*/
 }
 .nav{
 	position: fixed;
