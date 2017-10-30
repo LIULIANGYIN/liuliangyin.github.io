@@ -123,6 +123,12 @@ height: 700px;
 .horizon.square{
 	width: 1500px;
 }
+.horizon.threegrid{
+	width: 2500px;
+}
+.horizon.fourgrid{
+	width: 3200px;
+}
 .horizon.square.fourgrid{
 	width: 3200px;
 }
@@ -188,6 +194,24 @@ height: 700px;
 .item img{
 	width: 100%;
 	height: auto;
+}
+.item.hand{
+	background-color: #F7F9F9;
+	background-color: #ffa866;
+	background-color: #ffede0;
+	background-color: #fff3ea;
+	background-color: #fffaf7;
+	margin: 0 ;
+	width: 400px;
+}
+.item.hand.first{
+	margin-left:250px;
+	/*width: 450px;*/
+}
+
+.item.hand img{
+	width: 49%;
+	display: inline-block;
 }
 .first{
 	margin-left: 250px;
