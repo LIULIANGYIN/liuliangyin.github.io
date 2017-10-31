@@ -9,16 +9,15 @@ html{
       margin: 0;
       list-style: none;
       text-decoration: none;
-      /*cursor: crosshair;*/
       font-size: 14px;
       font-weight: 200;
       /*outline: 1px solid red;*/
 
 }
 body{
-	
-	text-align: center;
 	background: url(../graphicitem_html/bg4.png);
+	text-align: center;
+	
 }
 
 .header{
