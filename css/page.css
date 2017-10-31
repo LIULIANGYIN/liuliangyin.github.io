@@ -9,7 +9,6 @@ html{
       margin: 0;
       list-style: none;
       text-decoration: none;
-      /*cursor: crosshair;*/
       font-size: 14px;
       font-weight: 200;
       /*outline: 1px solid red;*/
@@ -110,15 +109,11 @@ body{
 	position: relative;
 	margin-bottom: 24%;
 	width: 100%;
-	/*box-shadow: 0 0 7px #eaeaea;*/
 }
 .wrapper.few .gallery .item{
 	margin-bottom: 0%;
 }
 
-.item:hover{
-	/*box-shadow:none;*/
-}
 .item:after{
 	content: '';
     display: inline-block;
@@ -136,7 +131,6 @@ body{
 
 .item:hover:after{
 	opacity: 0.9;
-	/*border: #000 1px solid;*/
 
 }
 
@@ -144,7 +138,6 @@ h1{
     position: absolute;
     width: 100%;
     top:43%;
-    /*transform: translateY(-50%);*/
     text-align: center;
     color: #000;
     z-index: 2;
@@ -187,7 +180,6 @@ h1{
 	bottom: 20px;
 	right: 0;
 	z-index: 20;
-	/*background-color: red;*/
 	border-bottom:3px solid #000;
 }
 /*2017*/
@@ -200,7 +192,6 @@ footer{
 }
 footer ul{
 	display: inline-block;
-	/*margin-bottom: 25px;*/
 }
 footer ul li{
 	display: inline-block;	
