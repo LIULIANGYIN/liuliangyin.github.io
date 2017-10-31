@@ -213,10 +213,8 @@ height: 700px;
 }*/
 .item.hand img{
 	background-color: #fffaf7;
-	
-	background-color: #d9e0ff;
+	background-color: #dde3ff;
 	margin: 10px;
-
 	width: 45%;
 	display: inline-block;
 }
@@ -244,13 +242,13 @@ height: 700px;
 	font-size: 17px;
 	line-height: 1.8;
 	margin-bottom: 20px;
+	margin-top: 10px;
 }
 .info .ch{
 	font-size: 16px;
 }
 .info p{
 	font-size: 15px;
-
 	text-decoration: underline;
 	/*color: #d65b2a;*/
 
