@@ -16,11 +16,7 @@ html{
 
 }
 body{
-	/*background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
-	background-color: #eaeaea;
 	text-align: center;
-	background-color: #fff;
-	/*background-color:#d7ff47;*/
 }
 
 .header{
@@ -28,14 +24,11 @@ body{
 	width: 100%;
 	top: 0;	
 	z-index: 3;
-	/*text-align: center;*/
 	
 }
 .nav{
 	position: fixed;
 	right: 30px;
-	/*text-align: right;*/
-	/*margin-right: 30px;*/
 }
 
 .nav li{
@@ -56,32 +49,6 @@ body{
 }
 
 
-/*.name-float{
-	position: fixed;
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing:4px;
-	 -webkit-transform: rotate(-90deg);
-    -webkit-transform-origin: left top;
-    -moz-transform: rotate(-90deg);
-    -moz-transform-origin: left top;
-    -ms-transform: rotate(-90deg);
-    -ms-transform-origin: left top;
-    -o-transform: rotate(-90deg);
-    -o-transform-origin: left top;
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    z-index: 5;
-    left: 40px;
-    top: 500px;
-    color: #fff;
-    background-color: #eee;
-    border: 3px solid #000;
-    color: #000;
-    padding: 3px 10px;
-    padding-bottom: 11px;
-
-}*/
 .title{
 	position:absolute;
 	margin-top: 20px;
@@ -107,7 +74,6 @@ body{
 	margin:0 auto;
 	margin-top: 90px;
 	margin-bottom: 30px;
-	/*border-top: #000 4px solid;*/
 	text-align: center;
 	padding-top: 60px;
 	background: url(../graphicitem_html/bg7.png);
@@ -190,7 +156,7 @@ h1{
 	line-height: 150%;
 }
 .item:hover h1{
-	display: block;file:///Users/liangyin/Desktop/galler-test/index.html#
+	display: block;
 	transition: 800ms;
 	animation: slideInDown 0.5s 0.3s backwards;
 

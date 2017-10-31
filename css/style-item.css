@@ -109,34 +109,29 @@ h1
 z-index: 1;
 width: 1800px;
 height: 700px;
+}
 
-}
-.horizon.forthwidth{
-	width: 3800px;
-}
-.horizon.square{
+.horizon.shortwidth{
 	width: 1500px;
-}
-.horizon.square.forthwidth{
-	width: 3800px;
 }
 .horizon.secondwidth{
 		width: 2000px;
 	}
+
 .horizon.thirdwidth{
 	width: 2500px;
 }
 .horizon.forthwidth{
 	width: 3200px;
 }
-.horizon.square.forthwidth{
-	width: 3200px;
+.horizon.fifthwidth{
+	width: 3600px;
 }
 .horizon.sixthwidth{
 	width: 4000px;
 }
-.horizon.square.sixthwidth{
-	width: 4300px;
+.horizon.seventhwidth{
+	width: 4600px;
 }
 
 .arrow{
@@ -192,6 +187,9 @@ height: 700px;
 .item.square{
 	width:500px;
 }
+.item.biggersquare{
+	width: 700px;
+}
 .item.square.forthwidth{
 	width:500px;
 	/*margin: 0px;*/
@@ -244,24 +242,28 @@ height: 700px;
 .info h2{
 	font-size: 17px;
 	line-height: 1.8;
+	margin-bottom: 20px;
 }
 .info .ch{
 	font-size: 16px;
 }
 .info p{
 	font-size: 15px;
-	/*line-height: 1.6;*/
+
 	text-decoration: underline;
+	/*color: #d65b2a;*/
 
 }
 
 .enter{
+	font-size: 16px;
 	display: inline-block;
 	color: #ff6e35;
-	padding: 5px 7px;
+	padding: 7px 7px;
 	border: 2px solid #ff6e35;
 	margin-top: 20px;
 	transition: 300ms;
+	font-weight: bold;
 }
 .enter:hover{
 	/*border-radius: 10px;*/
