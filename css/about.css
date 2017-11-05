@@ -109,6 +109,12 @@ body{
 	font-weight: bold;
 
 }
+.intro a{
+	color: #e0fc5f;
+	text-decoration: none;
+	line-height: 1.6;
+	font-size: 19px;
+}
 /*2017*/
 .year{
 	font-size: 17px;
