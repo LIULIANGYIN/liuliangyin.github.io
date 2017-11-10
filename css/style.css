@@ -121,11 +121,9 @@ footer p{
 
 
 @media (max-width: 480px) {
-
 	.nav{
 		position: static;
 	}
-
 	.sub-nav li{
 	margin:  0;
 	padding: 15px; 

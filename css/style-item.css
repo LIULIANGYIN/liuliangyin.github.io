@@ -72,7 +72,6 @@ background-color: #b4eeb4;
 	vertical-align: bottom;
 	font-size: 25px;
 	letter-spacing:12px;
-	
 	color: #000;
 	border-bottom: 4px solid #000;
 }
@@ -308,7 +307,7 @@ width: 1800px;
 		margin-top: 30px;
 	}
 	.item.hand img{
-		width: 43%;
+		width: 42%;
 	}
 	.info.item{
 		margin-bottom: 80px;

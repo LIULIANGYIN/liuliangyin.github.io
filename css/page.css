@@ -53,6 +53,7 @@ body{
 	left: 0;
 	z-index: 5;
 	text-align: left;
+	margin-left: 20px;
 }
 
 .title p{
@@ -61,7 +62,6 @@ body{
 	vertical-align: bottom;
 	font-size: 25px;
 	letter-spacing:12px;
-	margin-left: 20px;
 	color: #000;
 	border-bottom: 4px solid #000;
 }
@@ -218,11 +218,46 @@ footer p{
 		padding: 10px 15px;
 	}
 	.title{
+		display: inline-block;
 		position:static;
 		margin-left: 0;
-			}
-	
+		/*text-align: left;*/
+	}
+	.title p{
+		letter-spacing: 9px;
+	}
+	.wrapper{
+		width: 100%;
+		margin-top: 110px;
+		padding-top: 30px;
+	}
+	.wrapper.few{
+	padding:0;
+	padding-top: 30px;
 }
+	.gallery{
+	
+	width: 80%;
+	padding: 0;
+	float: none;
+	}
+
+	.gallery.left{
+		padding-left: 0%;
+	}
+	.gallery.right{
+		padding-right: 0%;
+	}
+	.item{
+	margin-bottom: 10%;
+}
+	.wrapper.few .gallery .item{
+	margin-bottom: 10%;
+}
+
+
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
 }
 @media (min-width: 980px) {
