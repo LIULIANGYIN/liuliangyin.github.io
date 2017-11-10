@@ -68,10 +68,7 @@ body{
 	border: 2px #000 solid;*/
 	transition: 300ms;
 }
-.sub-nav .logo{
-	padding-right: 0;
 
-}
 .sub-nav .page:hover{
 	transform: translateY(-7px);
 	opacity: 0.6;
@@ -119,3 +116,43 @@ footer p{
 	margin-left: 30px;
 	margin-bottom: 20px;
 }
+
+
+
+
+@media (max-width: 480px) {
+
+	.nav{
+		position: static;
+	}
+	.sub-nav{
+		position: static;
+
+	}
+
+.sub-nav{
+	
+	position:static;
+}
+
+.sub-nav li{
+	display: inline-block;
+	margin:  0;
+	padding: 15px; 
+}
+
+
+.sub-nav li img{
+	width: 90px;
+}
+
+.sub-nav .logo img{
+	width: 100px;
+	padding-bottom: 10px;
+	}
+
+
+
+
+
+	}
