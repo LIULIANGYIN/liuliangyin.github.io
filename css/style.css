@@ -125,21 +125,11 @@ footer p{
 	.nav{
 		position: static;
 	}
-	.sub-nav{
-		position: static;
 
-	}
-
-.sub-nav{
-	
-	position:static;
-}
-
-.sub-nav li{
-	display: inline-block;
+	.sub-nav li{
 	margin:  0;
 	padding: 15px; 
-}
+	}
 
 
 .sub-nav li img{

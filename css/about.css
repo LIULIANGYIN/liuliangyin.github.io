@@ -155,4 +155,38 @@ footer ul li i{
 footer p{
 	margin:20px 0;
 }
+/*2017*/
+
+
+
+
+/*media query*/
+
+
+
+@media (max-width: 480px) {
+	body{
+		height: auto;
+	}
+	
+	.nav{
+	position: static;
+	}
+	.nav li{
+		padding: 10px 15px;
+	}
+	.title{
+		position:static;
+		margin-left: 0;
+			}
+	.cover{
+		width: 100%;
+	}
+
+
+
+}
+
+/*media query*/
+
 
