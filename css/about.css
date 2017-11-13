@@ -132,7 +132,7 @@ body{
 /*2017*/
 footer{
 	width: 100%;
-	position:absolute;
+	position:relative;
 	margin: 0 auto;
 	bottom: 0;
 	z-index: 30;
