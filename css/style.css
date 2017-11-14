@@ -118,8 +118,6 @@ footer p{
 }
 
 
-
-
 @media (max-width: 480px) {
 	.nav{
 		position: static;
@@ -131,12 +129,15 @@ footer p{
 
 
 .sub-nav li img{
-	width: 90px;
+	width: 85px;
 }
-
+.sub-nav .logo{
+	transform: translateX(-5px);
+}
 .sub-nav .logo img{
-	width: 100px;
+	width: 90px;
 	padding-bottom: 10px;
+	
 	}
 
 
