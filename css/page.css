@@ -143,6 +143,9 @@ h1{
     z-index: 2;
     display: none;
 }
+.web h1{
+    top:38%;
+}
 .item span{
 	font-size: 24px;
 	font-weight:normal;
